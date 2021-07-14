@@ -69,7 +69,10 @@ F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.Twitter.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Web.Infrastructure.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\Newtonsoft.Json.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\Owin.dll
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Net.Http.Formatting.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Helpers.dll
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Http.dll
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Http.WebHost.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Mvc.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Optimization.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Razor.dll
@@ -77,6 +80,11 @@ F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.WebPages.Deployment.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.WebPages.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.WebPages.Razor.dll
 F:\ThucHanh\BigSchool\BigSchool\bin\WebGrease.dll
+F:\ThucHanh\BigSchool\BigSchool\bin\EntityFramework.xml
+F:\ThucHanh\BigSchool\BigSchool\bin\EntityFramework.SqlServer.xml
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Net.Http.Formatting.xml
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Http.xml
+F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Http.WebHost.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Helpers.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Mvc.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.Optimization.xml
@@ -86,8 +94,6 @@ F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.WebPages.Deployment.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\System.Web.WebPages.Razor.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Newtonsoft.Json.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Antlr3.Runtime.pdb
-F:\ThucHanh\BigSchool\BigSchool\bin\EntityFramework.xml
-F:\ThucHanh\BigSchool\BigSchool\bin\EntityFramework.SqlServer.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.AspNet.Identity.Core.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.AspNet.Identity.Owin.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -101,8 +107,8 @@ F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.Twitter.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.OAuth.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CoreCompileInputs.cache
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CopyComplete
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.dll
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
-F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache

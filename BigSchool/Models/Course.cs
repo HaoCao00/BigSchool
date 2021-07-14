@@ -5,26 +5,32 @@ namespace BigSchool.Models
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-    using System.Runtime.CompilerServices;
 
     [Table("Course")]
     public partial class Course
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Course()
+        {
+            Attendances = new HashSet<Attendance>();
+        }
+
         public int Id { get; set; }
 
         [StringLength(128)]
         public string LecturerId { get; set; }
 
         [StringLength(255)]
-        [Required(ErrorMessage ="The Place is required")]
         public string Place { get; set; }
-        //[DataType(DataType.DateTime, ErrorMessage ="Not correct format")]
-        public DateTime? DateTime { get; set; }
-        [Required(ErrorMessage ="Category is required")]
+
+        public DateTime DateTime { get; set; }
+
         public int? CategoryId { get; set; }
         public string Name;
-
-        public virtual Category Category { get; set; }
+        public string LecturerName;
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Attendance> Attendances { get; set; }
         public List<Category> ListCategory = new List<Category>();
+        public virtual Category Category { get; set; }
     }
 }
