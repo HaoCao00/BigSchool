@@ -107,8 +107,8 @@ F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.Twitter.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.Owin.Security.OAuth.xml
 F:\ThucHanh\BigSchool\BigSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CoreCompileInputs.cache
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CopyComplete
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.dll
 F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
+F:\ThucHanh\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.AssemblyReference.cache

@@ -79,10 +79,6 @@ namespace BigSchool.Controllers
             course.ListCategory = db.Categories.ToList();
             return View(course);
         }
-
-        // POST: Courses/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "Id,LecturerId,Place,DateTime,CategoryId")] Course course)
@@ -125,7 +121,35 @@ namespace BigSchool.Controllers
             db.SaveChanges();
             return RedirectToAction("Mine");
         }
-
+        public ActionResult LectureIamGoing()
+        {
+            ApplicationUser currentUser =
+            System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>()
+            .FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
+            BigSchoolContext context = new BigSchoolContext();
+            //danh sách giảng viên được theo dõi bởi người dùng (đăng nhập) hiện tại
+            var listFollwee = context.Followings.Where(p => p.FollowerId ==
+            currentUser.Id).ToList();
+            //danh sách các khóa học mà người dùng đã đăng ký
+            var listAttendances = context.Attendances.Where(p => p.Attendee ==
+            currentUser.Id).ToList();
+            var courses = new List<Course>();
+            foreach (var course in listAttendances)
+            {
+                foreach (var item in listFollwee)
+                {
+                    if (item.FolloweeId == course.Course.LecturerId)
+                    {
+                        Course objCourse = course.Course;
+                        objCourse.LecturerName =
+                        System.Web.HttpContext.Current.GetOwinContext().GetUserManager<ApplicationUserManager>()
+                        .FindById(objCourse.LecturerId).Name;
+                        courses.Add(objCourse);
+                    }
+                }
+            }
+            return View(courses);
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
